@@ -1,0 +1,36 @@
+/* Selector */
+
+/* Path: 01-selector/style.css */
+
+/* class selector */
+
+/* <div class="card">
+    <h1 id="card__title">Card 1</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+</div> */
+
+.card {
+  width: 300px;
+  height: 300px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+}
+
+/* id selector */
+#card__title {
+  color: #333;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* element selector */
+
+p{
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+}
